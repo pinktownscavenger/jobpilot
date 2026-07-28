@@ -115,19 +115,3 @@ Common statuses:
 
 - `application_status`: `found`, `ready_to_apply`, `applied`, `rejected`, `interview`
 - `resume_status`: `not_started`, `drafted`, `reviewed`
-
-## Privacy Notes
-
-The public repo intentionally excludes:
-
-- `.env` and API keys.
-- Local job description cache files.
-- Generated resumes.
-- Private resume source files.
-- Logs and Python cache files.
-
-Review `config/preferences.toml` and anything in `resumes/source/` before publishing your own fork.
-
-## License
-
-MIT
