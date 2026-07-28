@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local job and resume artifacts
+data/job_details.json
+resumes/generated/*
+!resumes/generated/.gitkeep
+resumes/source/*
+!resumes/source/Master_Resume.example.md
+
+# Runtime logs
+logs/
+

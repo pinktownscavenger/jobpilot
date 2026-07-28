@@ -1,0 +1,113 @@
+[profile]
+field = "Data Science"
+student_level = "student_or_early_career"
+location = "United States"
+master_resume_path = "resumes/source/Master_Resume.example.md"
+current_resume_path = ""
+
+[resume_generation]
+template_path = "templates/resume.tex"
+output_dir = "resumes/generated"
+job_details_path = "data/job_details.json"
+model = "gpt-4.1-mini"
+
+[resume.header]
+name = "Candidate Name"
+location = "City, State, Country"
+email = "candidate@example.com"
+github = "https://github.com/your-username"
+linkedin = "https://www.linkedin.com/in/your-profile/"
+portfolio = "https://your-portfolio.example.com"
+
+[[resume.education]]
+institution = "University Name"
+location = "City, State"
+degree = "Degree or Program"
+dates = "Month YYYY -- Month YYYY"
+
+[resume.skills]
+"Programming & Data Tools" = ["Python", "SQL", "Pandas", "Scikit-learn"]
+"Data Visualization & Reporting" = ["Matplotlib", "Seaborn", "Tableau", "Power BI"]
+"Databases & Cloud" = ["PostgreSQL", "MongoDB", "AWS", "Azure"]
+"APIs and Deployment" = ["Git", "GitHub", "Flask", "FastAPI", "REST APIs"]
+
+[resume.latex]
+font_name = "Latin Modern Roman"
+font_path = ""
+upright_font = ""
+bold_font = ""
+italic_font = ""
+bold_italic_font = ""
+
+[search]
+sites = ["indeed", "linkedin"]
+search_terms = [
+  "data science intern",
+  "data analyst intern",
+  "machine learning intern",
+]
+job_types = ["internship", "fulltime"]
+hours_old = 24
+results_wanted = 25
+remote = true
+include_google = false
+top_n_jobs = 15
+
+[fit]
+minimum_score = 30
+target_title_keywords = [
+  "data science",
+  "data scientist",
+  "data analyst",
+  "analytics analyst",
+  "analytics engineer",
+  "machine learning",
+  "machine learning engineer",
+  "ml engineer",
+  "ai engineer",
+  "artificial intelligence",
+]
+preferred_keywords = [
+  "data science",
+  "data analyst",
+  "analytics",
+  "machine learning",
+  "python",
+  "sql",
+  "statistics",
+  "intern",
+  "internship",
+  "student",
+]
+excluded_keywords = [
+  "senior",
+  "sr.",
+  "principal",
+  "staff",
+  "lead",
+  "manager",
+  "director",
+  "5+ years",
+  "8+ years",
+  "10+ years",
+]
+seniority_keywords = [
+  "senior",
+  "sr.",
+  "principal",
+  "staff",
+  "lead",
+  "manager",
+  "director",
+]
+student_friendly_keywords = [
+  "intern",
+  "internship",
+  "student",
+  "graduate",
+  "part time",
+  "part-time",
+  "junior",
+  "entry level",
+]
+
