@@ -33,13 +33,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-For resume drafting, create a local `.env` file:
+For resume drafting, set your OpenAI API key in your shell:
 
 ```bash
-cp .env.example .env
+export OPENAI_API_KEY="your_openai_api_key_here"
 ```
 
-Then set `OPENAI_API_KEY` in `.env`.
+You can also store the same value in a local `.env` file if you prefer. `.env` is ignored by git.
 
 Resume PDF generation also requires XeLaTeX. On macOS, install MacTeX or BasicTeX. On Linux, install a TeX Live package that includes `xelatex`.
 
